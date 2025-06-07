@@ -1,0 +1,18 @@
+<div *ngIf="pageThree" style="position: absolute; top: 5%; left: 10%;">
+    <h4>Lmao you really thought we would need a volume icon in this stupid place? Cmon! I am too lazy to code that. <br>    
+        Well good thing you figured it out. Any<span (click)="toPageFour()">way</span> that was dumb I know, well... let's continue.
+        <span (click)="showDoor()" class="glyphicon glyphicon-arrow-right"></span>
+    </h4>
+    <div *ngIf="isDoorVisible" (click)="count()">
+        <span><svg style="position: absolute; top: 100%; left: 50%;" width="400" height="250">
+            <rect width="150" height="300" style="fill:rgb(255, 255, 255);stroke-width:3;stroke:rgb(0,0,0)" />
+        </svg>
+        <svg style="position: absolute; top: 280%; left: 63%;" class="door" height="100" width="100">
+            <circle cx="10" cy="10" r="5" stroke="black" stroke-width="1" fill="black" />
+        </svg></span>
+    </div>
+
+    <div class="annoyingText">{{textAnnoy}}</div>
+</div>
+
+<app-page-four *ngIf="pageFour"></app-page-four>

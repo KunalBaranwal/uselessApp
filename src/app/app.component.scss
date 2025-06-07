@@ -1,0 +1,27 @@
+.headBox{
+    padding: 100px 100px 100px 500px;
+    font-size: 100px;
+    position: relative ;
+}
+
+.whiteText{
+    color: #1e1e1e;
+}
+
+.icons{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 22px;
+}
+
+.drag-container{
+    display: inline-block;
+}
+
+.door{
+    position: absolute;
+    right: 510px;
+    top: 140px;
+}
+

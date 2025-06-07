@@ -1,0 +1,15 @@
+<div *ngIf="pageTwo">
+    <div style="position: absolute; top: 30%; left: 40%;">
+        <h5>Ok so sometimes things are not that useless as they seem to be.</h5>
+        <h5>Good thing you got till here.</h5>
+        <h2>Click hear to continue</h2>
+    </div>
+    
+    <div class="icons">
+        <span (click)="volumeIcon()" class="whiteText glyphicon glyphicon-volume-up">&nbsp;</span>
+        <span class="whiteText glyphicon glyphicon-info-sign"></span>
+    </div>
+
+</div>
+
+<app-page-three *ngIf="pageThree"></app-page-three>
